@@ -2,30 +2,35 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-h1, h2,h3 {
+h1, h2, h3 {
     font-family: "Sans-serif", "Verdana";
 }
 
 h2 {
     color: #000000;
+    padding: 20px;
+}
+
+.card-body {
+    font-size: 30px;
 }
 
 header h2 {
     color: #CEC8FF;
 }
 
-
 .jumbotron {
     margin: 0;
-    padding: 10px;
-    color: white;
+    padding: 20px;
     background-color: rgb(16, 16, 127);
-}
+    color: white;
+  }
 
 .navbar {
     background-color: rgb(115, 176, 212);
 }
-ul {
+
+.nav-item {
     background-color: rgb(115, 176, 212);
 }
 
@@ -33,3 +38,10 @@ ul {
 margin: 20px;
 border: 15px;
 }
+
+.site-footer {
+    background-color: rgb(16, 16, 127);
+    padding: 10px 0;
+    color: white;
+  }
+
